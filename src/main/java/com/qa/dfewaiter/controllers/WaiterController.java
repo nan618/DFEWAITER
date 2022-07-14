@@ -37,28 +37,28 @@ public class WaiterController {
 		return this.service.readById(id);
 	}
 	
-//	//ReadByFirstName
-//	@GetMapping("/readByFirstName/{firstName}")
-//	public List<Waiter> readByFirstName(@PathVariable String firstName) {
-//          return this.service.readByFirstName(firstName);
-//		
-//	}
-//	
-//	//POST - CREATE
-//	@PostMapping("/create") // localhost:8080/customer/create
-//	public Waiter create(@RequestBody Waiter waiter ) {
-//		return this.service.create(waiter);
-//	}
-//	
-//	//PUT - UPDATE
-//	@PutMapping("/update/{id}")
-//	public Waiter update(@PathVariable long id, @RequestBody Waiter waiter ) {
-//		return this.service.update(id, waiter);
-//	}
-//	
-//	//DELETE - DELETE
-//	@DeleteMapping("/delete/{id}")
-//	public boolean delete(@PathVariable long id) {
-//		return this.service.delete(id);
-//	}
+	//ReadByFirstName
+	@GetMapping("/readByFirstName/{firstName}")
+	public List<Waiter> readByFirstName(@PathVariable String firstName) {
+          return this.service.readByFirstName(firstName);
+		
+	}
+	
+	//POST - CREATE
+	@PostMapping("/create") // localhost:8080/customer/create
+	public Waiter create(@RequestBody Waiter waiter ) {
+		return this.service.create(waiter);
+	}
+	
+	//PUT - UPDATE
+	@PutMapping("/update/{id}")
+	public Waiter update(@PathVariable long id, @RequestBody Waiter waiter ) {
+		return this.service.update(id, waiter);
+	}
+	
+	//DELETE - DELETE
+	@DeleteMapping("/delete/{id}")
+	public boolean delete(@PathVariable long id) {
+		return this.service.delete(id);
+	}
 }
