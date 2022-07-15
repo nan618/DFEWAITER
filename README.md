@@ -12,11 +12,37 @@ o Possible improvements for future revisions of the project.
     In the future, I will implement hierarchical management permissions. For example, waiter self-management (it just does self-information), administrator management (it does some information), manager management (it does all information)
 
 o Screenshots of your database to prove that data is being persisted.
+![MySQL](/documentation/MySQL.PNG?raw=true)
 
+![create1](/documentation/create1.PNG?raw=true)
+
+![read1](/documentation/read1.PNG?raw=true)
+
+![createid7](/documentation/createid7.PNG?raw=true)
+
+![readall(aftercreat1)](/documentation/readall(aftercreat1).PNG?raw=true)
+
+![readeall(aftercreate2)](/documentation/readeall(aftercreate2).PNG?raw=true)
+
+![delete](/documentation/delete.PNG?raw=true)
+
+![updateid7](/documentation/updateid7.PNG?raw=true)
+
+![afterupdateemailchanged](/documentation/afterupdateemailchanged.PNG?raw=true)
 
 o	Screenshot of your test results, including coverage report.
-Done,I have the documentation and Screenshots save as PNG.
-![MySQL](/documentation/MySQL.PNG?raw=true)
+
+![Swagg](/documentation/Swagg.PNG?raw=true)
+
+![runjunittrst](/documentation/runjunittrst.PNG?raw=true)
+
+![myAPT](/documentation/myAPT.PNG?raw=true)
+
+![anothertest](/documentation/anothertest.PNG?raw=true)
+
 
 o	Link to Jira Board:
 https://jennifergodoman.atlassian.net/jira/software/projects/DFEUS/boards/1/backlog?selectedIssue=DFEUS-38
+
+
+
